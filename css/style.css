@@ -1,0 +1,62 @@
+* {
+  margin: 10px;
+  padding: 10px
+}
+
+
+body 
+{height: 800px;
+	width: 1000px;
+	background-repeat: no-repeat;
+	font-family: amaticSC-Bold, avenir, arial, sans-serif;
+	font-size: 16px;
+  color: #333;
+  padding: 0px;
+}
+
+#myMsg {font-size: 20px;
+	height:300px;
+width:300px;
+position:absolute;
+top:80px;
+left: 50px;}
+
+#userresponse{height:500px;
+width: 400px;
+margin-left:50%;}
+
+
+
+em {
+  color: darkblue;
+}
+
+form input {
+font-family: amaticSC-Bold, avenir, arial ;
+  margin: 10px 6px;
+  padding: 0px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+
+form input[type="submit"] {
+  color: red;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background-color: #555;
+}
+
+p {
+  background-color: white;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+}
